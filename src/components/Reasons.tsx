@@ -112,7 +112,7 @@ export function Reasons() {
              </div>
 
              {/* Auto-play Marquee */}
-             <div className="flex gap-6 py-6 w-[200%] z-10">
+             <div className="flex gap-6 py-6 w-max z-10">
                <motion.div
                  animate={{ x: ["0%", "-50%"] }}
                  transition={{ ease: "linear", duration: 25, repeat: Infinity }}

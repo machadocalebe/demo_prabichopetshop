@@ -18,8 +18,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="pt-BR" className={`${nunito.variable} antialiased`}>
-      <body className="font-sans min-h-screen flex flex-col bg-offwhite text-gray-800 overflow-x-hidden">
+    <html lang="pt-BR" className={`${nunito.variable} antialiased overflow-x-hidden max-w-[100vw]`}>
+      <body className="font-sans min-h-screen flex flex-col bg-offwhite text-gray-800 overflow-x-hidden w-full max-w-[100vw]">
         {children}
       </body>
     </html>
