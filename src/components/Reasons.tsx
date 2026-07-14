@@ -89,7 +89,7 @@ export function Reasons() {
             whileInView={{ opacity: 1, scale: 1, filter: "blur(0px)" }}
             viewport={{ once: true, margin: "-50px" }}
             transition={{ duration: 0.8, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
-            className="w-full lg:w-1/2 relative overflow-hidden rounded-[2.5rem] bg-offwhite shadow-2xl flex flex-col justify-center min-h-[400px]"
+            className="w-full lg:w-1/2 min-w-0 max-w-full relative overflow-hidden rounded-[2.5rem] bg-offwhite shadow-2xl flex flex-col justify-center min-h-[400px]"
           >
              <div className="absolute inset-0 bg-prabicho-turquoise/5 z-0"></div>
              
